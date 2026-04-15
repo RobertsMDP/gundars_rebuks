@@ -53,6 +53,37 @@ nav a {
     width: 100%;
 }
 
+.hero_overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e6e8e6;
+}
+
+.hero_text {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.hero_button {
+  background-color: #3a6ea5;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 36px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.hero_button:hover {
+  background-color: #553a41;
+  transition: 0.3s;
+}
+
 section {
     background-color: #E6E8E6;
     width: 90%;
@@ -96,11 +127,14 @@ select {
 
 .heading {
     font-size: 40px;
+    width: 90%;
+    display: inline-block;
+}
+
+.bottom-heading {
     margin-left: 40px;
     margin-bottom: 40px;
     border-bottom: 2px solid #191919;
-    width: 90%;
-    display: inline-block;
 }
 
 .products {
