@@ -53,35 +53,34 @@ nav a {
     width: 100%;
 }
 
-.hero_overlay {
-    position: absolute;
-    top: 100px
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #e6e8e6;
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e6e8e6;
 }
 
-.hero_text {
+.hero-text {
     font-size: 42px;
-    font-weight: 700;
+    color: #E6E8E6;
 }
 
-.hero_button {
+.hero-button {
     background-color: #3d333b;
-    color: #fff;
+    color: #E6E8E6;
     text-decoration: none;
-    padding: 13px 36px;
-    font-size: 14px;
-    font-weight: 700;
+    padding: 15px 40px;
+    font-size: 18px;
+    transition: 0.5s;
 }
 
 .hero_button:hover {
-    background-color: #553a41;
-    transition: 0.3s;
+  background-color: #553a41;
+  transition: 0.5s;
 }
 
 section {
