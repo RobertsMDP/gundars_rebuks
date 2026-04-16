@@ -62,7 +62,13 @@ nav a {
     align-items: center;
     text-align: center;
     color: #e6e8e6;
-    margin-top: 350px;
+    background: radial-gradient(
+        ellipse 60% 30% at center,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0.45) 30%,
+        rgba(0,0,0,0.2) 60%,
+        rgba(0,0,0,0) 100%
+    );
 }
 
 .hero-text {
@@ -106,6 +112,7 @@ input {
     border: 1px solid #191919;
     border-right: none;
     padding: 5px;
+    font-size: 24px;
 }
 
 button {
@@ -118,7 +125,8 @@ button {
 select {
     border: 1px solid #191919;    
     background: white;
-    padding: 5px 20px;
+    padding: 5px 10px;
+    font-size: 16px;
 }
 
 .heading {
